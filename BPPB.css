@@ -1,28 +1,54 @@
+* {
+  font-family: "Playfair Display", serif;
+}
+
 .my-carousel {
   position: absolute;
   top: 0;
   width: 65%;
 }
 
-.carousel-item {
-  height: 90vh;
-}
-
 .carousel-item img {
   width: 100%;
   margin: auto;
-  display:inline-block;
+  display: inline-block;
 }
 
 .header {
-    position: relative;
+  position: relative;
+  padding-bottom: 0;
 }
 
 .wcs {
-  background-color: #F99797;
+  background-color: #f99797;
 }
 
-.col-centered{
-  float: none;
-  margin: 0 auto;
+.img {
+  max-width: 65px;
+  max-height: 100px;
+  width: auto;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.text {
+  text-align: center;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 992px) {
+  .img {
+    max-width: 38px;
+    max-height: 50px;
+    float: left;
+  }
+
+  .text {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
