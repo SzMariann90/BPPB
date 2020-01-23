@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <title>Contact Us Part</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/home/macc/Downloads/favicon/apple-icon.png">
+    <link rel="stylesheet" type="text/css" href="BPPB4.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB2.html"
+              >Sights</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB3.html"
+              >Budapest Bits</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Contact Us<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="page-title">Contact Us</div>
+    </nav>
+    <!--Form and map section-->
+    <div class="row">
+      <div class="col-12 col-md-6">
+        <section id="contactUs">
+          <h2>Contact us</h2>
+          <form method="POST" action="example.php">
+            <div class="form-row">
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="First name"
+                  required
+                />
+              </div>
+              <div class="col">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Last name"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputEmail4">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputEmail4"
+                placeholder="example@email.com"
+                required
+              />
+              <small id="emailHelp" class="form-text text-muted"
+                >We'll never share your email with anyone else.</small
+              >
+            </div>
+            <div>
+              <p>Which tour(s) are you interested in?</p>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Saint Stephan Basilica</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineCheckbox2"
+                  >Budapest by Boat</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Szechenyi Baths</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Matthias Church</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Budapest Dawn Photo Tour</label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineCheckbox3"
+                  >Budapest Walking Tour</label
+                >
+              </div>
+            </div>
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="5"
+                placeholder="Write your message here"
+              ></textarea>
+            </div>
+            <button type="submit" class="button">Send</button>
+          </form>
+        </section>
+      </div>
+      <div class="col-12 col-md-6">
+        <section id="address">
+          <h2>Where to find us?</h2>
+          <h3>Budapest 1052, Vármegye utca 3-5.</h3>
+          <!-- The next line contains an inline-styling, please Zsófi put it into the CSS file instead - thanks:)  -->
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2695.7745806902935!2d19.05486615156142!3d47.49430457907514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd4104120057%3A0xed526e9e9ed8e4b8!2sWild%20Code%20School%20-%20Web%20Development%20Training%20Course!5e0!3m2!1shu!2shu!4v1579443982981!5m2!1shu!2shu"
+            frameborder="0"
+            style="border:1px solid rgb(197, 34, 34);"
+            allowfullscreen
+            width="100%"
+            height="100%"
+          ></iframe>
+        </section>
+      </div>
+    </div>
+
+    <!--About us section -->
+    <section id="aboutUs" class="container">
+      <h2>About us</h2>
+      <div class="row">
+        <div class="col">
+          <img
+            class="portrePic"
+            src="https://i.imgur.com/bWxbXax.jpg"
+            alt="Zsofi"
+            title="Zsofi"
+            height="175px"
+          />
+          <p>Zsófi</p>
+          <a href="" title="Find Zsofi at LinkedIn" target="_blank"
+            ><img
+              src="https://web.iceportal.com/wp-content/uploads/2018/03/square-linkedin-512.png"
+              height="20px"
+              alt="Zsofi\'s LinkedIn Profile"
+          /></a>
+          <a
+            href="https://github.com/mynameiszsofia"
+            title="Find Zsofi at GitHub"
+            target="_blank"
+            ><img
+              src="https://cdn.iconscout.com/icon/free/png-256/github-62-434695.png"
+              height="20px"
+              alt="Zsofi\'s GitHub Profile"
+          /></a>
+        </div>
+        <div class="col">
+          <img
+            class="portrePic"
+            src="https://i.imgur.com/QycqdiC.jpg"
+            alt="Mariann"
+            title="Mariann"
+            height="175px"
+          />
+          <p>Mariann</p>
+          <a href="" title="Find Mariann at LinkedIn" target="_blank"
+            ><img
+              src="https://web.iceportal.com/wp-content/uploads/2018/03/square-linkedin-512.png"
+              height="20px"
+              alt="Mariann\'s LinkedIn Profile"
+          /></a>
+          <a
+            href="https://github.com/SzMariann90"
+            title="Find Mariann at GitHub"
+            target="_blank"
+            ><img
+              src="https://cdn.iconscout.com/icon/free/png-256/github-62-434695.png"
+              height="20px"
+              alt="Mariann\'s GitHub Profile"
+          /></a>
+        </div>
+        <div class="col">
+          <img
+            class="portrePic"
+            src="https://i.imgur.com/XhmaSBN.jpg"
+            alt="Niki"
+            title="Niki"
+            height="175px"
+          />
+          <p>Niki</p>
+          <a
+            href="https://www.linkedin.com/in/nikolett-krisko-ab0351178/"
+            title="Find Niki at LinkedIn"
+            target="_blank"
+            ><img
+              src="https://web.iceportal.com/wp-content/uploads/2018/03/square-linkedin-512.png"
+              height="20px"
+              alt="Niki\'s LinkedIn Profile"
+          /></a>
+          <a
+            href="https://github.com/KrNikk"
+            title="Find Niki at GitHub"
+            target="_blank"
+            ><img
+              src="https://cdn.iconscout.com/icon/free/png-256/github-62-434695.png"
+              height="20px"
+              alt="Niki\'s GitHub Profile"
+          /></a>
+        </div>
+        <div class="col">
+          <img
+            class="portrePic"
+            src="https://i.imgur.com/z8nSE6s.jpg"
+            alt="Orsi"
+            title="Orsi"
+            height="175px"
+          />
+          <p>Orsi</p>
+          <a
+            href="https://www.linkedin.com/in/orsolya-totik-pmp%C2%AE-0817718/"
+            title="Find Orsi at LinkedIn"
+            target="_blank"
+            ><img
+              src="https://web.iceportal.com/wp-content/uploads/2018/03/square-linkedin-512.png"
+              height="20px"
+              alt="Orsi\'s LinkedIn Profile"
+          /></a>
+          <a
+            href="https://github.com/ototik"
+            title="Find Orsi at GitHub"
+            target="_blank"
+            ><img
+              src="https://cdn.iconscout.com/icon/free/png-256/github-62-434695.png"
+              height="20px"
+              alt="Orsi\'s GitHub Profile"
+          /></a>
+        </div>
+        <div class="col">
+          <img
+            class="portrePic"
+            src="https://i.imgur.com/IRnML9O.jpg"
+            alt="Tama"
+            title="Tami"
+            height="175px"
+          />
+          <p>Tama</p>
+          <a
+            href="https://www.linkedin.com/in/tamarabonyai/"
+            title="Find Tama at LinkedIn"
+            target="_blank"
+            ><img
+              src="https://web.iceportal.com/wp-content/uploads/2018/03/square-linkedin-512.png"
+              height="20px"
+              alt="Tama\'s LinkedIn Profile"
+          /></a>
+          <a
+            href="https://github.com/Tamara-B"
+            title="Find Tama at GitHub"
+            target="_blank"
+            ><img
+              src="https://cdn.iconscout.com/icon/free/png-256/github-62-434695.png"
+              height="20px"
+              alt="Tama\'s GitHub Profile"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ section-->
+    <section id="FAQ">
+      <h2>FAQ</h2>
+      <div class="accordion" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseOne"
+                aria-expanded="false"
+                aria-controls="collapseOne"
+              >
+                Where do I get tickets or how do I book?
+              </button>
+            </h5>
+          </div>
+
+          <div
+            id="collapseOne"
+            class="collapse"
+            aria-labelledby="headingOne"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              Booking online is the best way to secure your place on one of our
+              tours and also a great way to save on the price of your tour.
+              Check out the individual tour pages for more details.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How can I pay?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseTwo"
+            class="collapse"
+            aria-labelledby="headingTwo"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              We accept credit and debit cards online and cash in our tour
+              center. For private tours, bank transfers are also accepted.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Will my tour be cancelled if the weather is bad?
+              </button>
+            </h5>
+          </div>
+          <div
+            id="collapseThree"
+            class="collapse"
+            aria-labelledby="headingThree"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              No, tours run in all weather conditions.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFour"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What happens if you cancel my tour and I've already booked?
+              </button>
+            </h5>
+          </div>
+
+          <div
+            id="collapseFour"
+            class="collapse"
+            aria-labelledby="headingFour"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              This rarely happens but if it does you will be fully refunded.
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingFive">
+            <h5 class="mb-0">
+              <button
+                class="btn btn-link"
+                type="button"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Who are the guides?
+              </button>
+            </h5>
+          </div>
+
+          <div
+            id="collapseFive"
+            class="collapse"
+            aria-labelledby="headingFive"
+            data-parent="#accordionExample"
+          >
+            <div class="card-body">
+              Our guides are all locals who are legally registered and certified
+              guides.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="wcs page-footer font-small pt-3">
+      <div class="container">
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a
+              class="link btn-floating btn-fb mx-1 fa-2x"
+              href="https://www.facebook.com/Wild-Code-School-Hungary-103181497733377/"
+              target="_blank"
+            >
+              <i class="fab fa-facebook-f"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="link btn-floating btn-insta mx-1 fa-2x"
+              href="https://www.instagram.com/?hl=hu"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="link btn-floating btn-li mx-1 fa-2x"
+              href="https://www.linkedin.com/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin-in"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a
+              class="link btn-floating btn-github mx-1 fa-2x"
+              href="https://github.com/"
+              target="_blank"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-copyright text-center py-3">
+        © 2020 Copyright:
+        <a
+          class="link"
+          href="https://www.wildcodeschool.com/en-GB/campuses/budapest"
+          target="_blank"
+        >
+          Wild Code School Budapest</a
+        >
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -2,12 +2,6 @@
   font-family: "Playfair Display", serif;
 }
 
-.my-carousel {
-  position: absolute;
-  top: 0;
-  width: 65%;
-}
-
 .carousel-item img {
   width: 100%;
   margin: auto;
@@ -15,7 +9,6 @@
 }
 
 .header {
-  position: relative;
   padding-bottom: 0;
 }
 
@@ -39,6 +32,40 @@
   vertical-align: middle;
 }
 
+.link {
+  color: black !important;
+}
+
+.card {
+  width: 450px;
+  display: inline-flex;
+}
+
+.btn-primary {
+  background-color: #f99797;
+  border-color: white;
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
+}
+
+.btn-primary:hover {
+  background-color: #dd4631;
+  color: white;
+  border-color: white;
+}
+
+.bg-primary {
+  background-color: #F99797 !important;
+}
+
+.card-columns {
+    padding-top: 40px;
+   
+}
+
+
+
 @media screen and (max-width: 992px) {
   .img {
     max-width: 38px;
@@ -50,5 +77,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+  }
+  .carousel {
+    padding-top: 80px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .text {
+    font-size: 10pt;
+  }
+
+  .img {
+    margin: 0;
   }
 }

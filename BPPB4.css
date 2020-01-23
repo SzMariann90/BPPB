@@ -1,0 +1,73 @@
+* {
+    font-family: "Playfair Display", serif;
+  }
+body {
+  background-image: url(https://media.licdn.com/dms/image/C4D1BAQE_zJcBHFjjyQ/company-background_10000/0?e=2159024400&v=beta&t=Nv200ZAqzNFNOWA0sNuv6Wh8VCfKi4O0_oBYwSha8PQ);
+}
+.page-title {
+  font-size: 26px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  border-radius: 100px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 90px;
+  margin-bottom: 45px;
+}
+
+.col {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+
+#address {
+  height: 375px;
+}
+
+.row {
+  padding: 15px;
+}
+
+.button {
+  background-color: #f99797;
+  padding-right: 150px;
+  padding-left: 150px;
+  border-radius: 100px;
+}
+
+.btn {
+  font-size: 22px;
+  color: #000;
+}
+
+.card-header {
+  background-color: #f8f9fa!;
+}
+
+footer {
+  padding-top: 40px;
+}
+.wcs {
+  background-color: #f99797;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.link {
+  color: black !important;
+}
