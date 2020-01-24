@@ -1,0 +1,24 @@
+* {
+    font-family: "Playfair Display", serif;
+  }
+  
+.wcs {
+  background-color: #f99797;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .img {
+      max-width: 38px;
+      max-height: 50px;
+      float: left;
+    }
+  
+    .text {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+

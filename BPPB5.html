@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <title>Prices and Reviews</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="/home/macc/Downloads/favicon/apple-icon.png" />
+    <link rel="stylesheet" type="text/css" href="PriceAndReview.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link 
+      rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+  </head>
+
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB2.html"
+              >Sights</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB3.html"
+              >Budapest Bits</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/home/macc/Documents/Git/BPPB/BPPB4.html"
+              >Contact Us</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Prices and Reviews<span class="sr-only">(current)</span></a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="page-title">Prices and Reviews</div>
+    </nav>
+
+
+    <div class="container my-5">
+            
+        <section class="text-center dark-grey-text">          
+          <h2 class="font-weight-bold pb-2 mb-4">Prices</h2>
+          <p class="text-muted w-responsive mx-auto mb-5">Regarding group discounts (at least 10 people) please contact us!<br />For children under 3-year-old (max 3/family) it's free.</p>
+
+          <div class="row wcs">
+            <div class="col-lg-4 col-md-12 mb-4 mt-4">
+              <div class="pricing-card card">
+                <div class="card-body">
+                  <h5 class="font-weight-bold mt-3">Package 1</h5>
+                  <div class="price pt-0">
+                    <h2 class="number text-danger font-weight-bold mb-0"><span class="align-top">€</span>15<span class="align-bottom">/person</span></h2>
+                  </div>          
+                  <ul class="list-group mb-1 list-group-flush">
+                    <li class="list-group-item"><strong>1</strong> tour guide</li>
+                    <li class="list-group-item"><strong>10</strong> stops</li>
+                    <li class="list-group-item"><strong>~2.5</strong> hours long</li>
+                    <li class="list-group-item"><strong>1</strong> small gift</li>
+                  </ul>
+                  <button class="btn btn-danger btn-rounded mb-4 mt-4" data-toggle="modal" data-target="#modalForm" data-whatever="Package1"> Register now</button>        
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 mb-4 mt-4">
+                <div class="pricing-card card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold mt-3">Package 2</h5>
+                  <div class="price pt-0">
+                    <h2 class="number text-danger font-weight-bold mb-0"><span class="align-top">€</span>25<span class="align-bottom">/person</span></h2>
+                  </div>          
+                  <ul class="list-group mb-1 list-group-flush">
+                    <li class="list-group-item"><strong>2</strong> tour guides</li>
+                    <li class="list-group-item"><strong>15</strong> stops</li>
+                    <li class="list-group-item"><strong>~4</strong> hours long</li>
+                    <li class="list-group-item"><strong>2</strong> small gifts</li>
+                  </ul>
+                  <button class="btn btn-danger btn-rounded mb-4 mt-4" data-toggle="modal" data-target="#modalForm" data-whatever="Package2"> Register now</button>       
+                 </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mt-4">
+                <div class="pricing-card card">
+                  <div class="card-body">
+                    <h5 class="font-weight-bold mt-3">Package 3</h5>
+                    <div class="price pt-0">
+                      <h2 class="number text-danger font-weight-bold mb-0"><span class="align-top">€</span>45<span class="align-bottom">/person</span></h2>
+                    </div>          
+                    <ul class="list-group mb-1 list-group-flush">
+                      <li class="list-group-item"><strong>2</strong> tour guides</li>
+                      <li class="list-group-item"><strong>20</strong> stops</li>
+                      <li class="list-group-item"><strong>~6</strong> hours long</li>
+                      <li class="list-group-item"><strong>2</strong> small gifts and <strong>lunch/dinner</strong></li>
+                    </ul>
+                    <button class="btn btn-danger btn-rounded mb-4 mt-4" data-toggle="modal" data-target="#modalForm" data-whatever="Package3"> Register now</button>        
+                  </div>
+                </div>
+            </div>
+
+          </div>
+          <div class="modal fade" id="modalForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLongTitle">Chosen: </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>  
+                <div class="modal-body">
+                    <form>
+                        <div class="form-row">
+                            <div class="col mb-2 mt-2">
+                                <input type="text" class="form-control" placeholder="Name" required>
+                            </div>
+                            <div class="col mb-2 mt-2">
+                                <input type="text" class="form-control" placeholder="E-mail address" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col mb-2 mt-2">
+                                <input type="text" class="form-control" placeholder="Phone number" required>
+                            </div>
+                            <div class="col mb-2 mt-2">
+                                <input type="text" class="form-control" placeholder="Coupon code">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col mb-2 mt-2 form-group">
+                                <label for="NumberPaying">People above 3-year old:</label>
+                                <select class="form-control" id="NumberPaying" name="NumberPaying">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                    <option>6</option>
+                                    <option>7</option>
+                                    <option>8</option>
+                                    <option>9</option>
+                                </select>
+                            </div>
+                            <div class="col mb-2 mt-2 form-group">
+                                <label for="NumberFree">People under 3-year old:</label>
+                                <select class="form-control" id="NumberFree" name="NumberFree">
+                                    <option>0</option>
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="bootstrap-iso col text-center">
+                                <div class="form-group"> <!-- Date input -->
+                                    <label class="control-label" for="date">Please select a date:</label>
+                                    <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+                                </div>  
+                            </div>                        
+                        </div>
+
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary btn-rounded mb-4 mt-4" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-danger btn-rounded mb-4 mt-4">Let's go, tour Budapest!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>                 
+    </div>
+
+
+    <div class="container mt-5 text-center">
+        <h2 class="font-weight-bold pb-2 mb-4">Reviews</h2>
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <img class="d-flex rounded-circle avatar z-depth-1-half mb-3 mx-auto" style="width: 175px; height: 175px" src="https://farm2.staticflickr.com/1922/44851743494_7c886c8f82_b.jpg"
+                    alt="Avatar">
+                <h4 class="font-weight-bold dark-grey-text mt-4">Mrs. Doubtfire</h4>
+                <h6 class="font-weight-bold blue-text my-3">Budapest by Boat</h6>
+                <p class="font-weight-normal dark-grey-text">
+                    <i class="fas fa-quote-left pr-2"></i>
+                    It was a great cruise to see the sights along the Danube. 
+                    The tour started on time and the tour guide lady was really funny. 
+                    There was a welcome drink, which was delicious and very helpful because I was with children.</p>
+                <div class="orange-text">
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <img class="d-flex rounded-circle avatar z-depth-1-half mb-3 mx-auto" style="width: 175px; height: 175px" src="Hannibal.png"
+                    alt="Avatar">
+                <h4 class="font-weight-bold dark-grey-text mt-4">Dr. Lecter</h4>
+                <h6 class="font-weight-bold red-text my-3">Culinary Tour</h6>
+                <p class="font-weight-normal dark-grey-text">
+                    <i class="fas fa-quote-left pr-2"></i>Interesting tour, polite tour guide, but the shown meals could have been presented more elegantly. </p>
+                <div class="orange-text">
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star-half"></i>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <img class="d-flex rounded-circle avatar z-depth-1-half mb-3 mx-auto" style="width: 175px; height: 175px" src="https://upload.wikimedia.org/wikipedia/commons/b/b1/LinuxCon_Europe_Linus_Torvalds_05.jpg"
+                    alt="Avatar">
+                <h4 class="font-weight-bold dark-grey-text mt-4">T., Linus</h4>
+                <h6 class="font-weight-bold red-text my-3">Budapest Dawn Photo Tour</h6>
+                <p class="font-weight-normal dark-grey-text">
+                    <i class="fas fa-quote-left pr-2"></i> 
+                    I'm a beginner photographer and wanted to explore the city at the same time so
+                     the tour was perfect for what I wanted. We were very comfortable with our guide
+                      who understood our needs and also spoke good English so communication was easy.</p>
+                <div>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                    <i class="fas fa-star"> </i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="wcs page-footer font-small pt-3">
+        <div class="container">
+          <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a
+                class="link btn-floating btn-fb mx-1 fa-2x"
+                href="https://www.facebook.com/Wild-Code-School-Hungary-103181497733377/"
+                target="_blank"
+              >
+                <i class="fab fa-facebook-f"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="link btn-floating btn-insta mx-1 fa-2x"
+                href="https://www.instagram.com/?hl=hu"
+                target="_blank"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="link btn-floating btn-li mx-1 fa-2x"
+                href="https://www.linkedin.com/"
+                target="_blank"
+              >
+                <i class="fab fa-linkedin-in"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                class="link btn-floating btn-github mx-1 fa-2x"
+                href="https://github.com/"
+                target="_blank"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-copyright text-center py-3">
+            © 2020 Copyright:
+            <a
+              class="link"
+              href="https://www.wildcodeschool.com/en-GB/campuses/budapest"
+              target="_blank"
+            >
+              Wild Code School Budapest</a
+            >
+          </div>
+        </footer>
+      <script
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
+      ></script>
+      <script src="BPPB.js"></script>
+      <script 
+        type="text/javascript" 
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"
+      ></script>
+    </body>
+  </html>
+  
