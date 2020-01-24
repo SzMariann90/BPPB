@@ -6,6 +6,10 @@
   background-color: #f99797;
 }
 
+.link {
+  color: black !important;
+}
+
 
 
 @media screen and (max-width: 992px) {

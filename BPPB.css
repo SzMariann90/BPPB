@@ -56,15 +56,12 @@
 }
 
 .bg-primary {
-  background-color: #F99797 !important;
+  background-color: #f99797 !important;
 }
 
 .card-columns {
-    padding-top: 40px;
-   
+  padding-top: 40px;
 }
-
-
 
 @media screen and (max-width: 992px) {
   .img {
